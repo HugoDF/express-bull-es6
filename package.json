@@ -1,0 +1,26 @@
+{
+  "name": "express-bull-es6",
+  "version": "1.0.0",
+  "description": "An Express setup with Redis, bull and ES6",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "dev": "nodemon -r esm server.js",
+    "worker": "node -r esm worker.js",
+    "worker:dev": "nodemon -r esm worker.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "bull": "^3.4.2",
+    "bull-arena": "^2.4.5",
+    "esm": "^3.0.67",
+    "express": "^4.16.3",
+    "ioredis": "^3.2.2",
+    "nodemon": "^1.18.1",
+    "uuid": "^3.3.2"
+  }
+}
