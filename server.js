@@ -1,3 +1,4 @@
+import url from 'url';
 import express from 'express';
 import bodyParser from 'body-parser';
 import Arena from 'bull-arena';
@@ -56,8 +57,6 @@ app.post('/example', (req, res) => {
   return res.sendStatus(200);
 });
 
-import url from 'url';
-
 function getRedisConfig(redisUrl) {
   const redisConfig = url.parse(redisUrl);
   return {
@@ -87,4 +86,4 @@ app.use('/', Arena(
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`)
-})
+});
