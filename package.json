@@ -16,7 +16,7 @@
     "axios": "^0.18.1",
     "body-parser": "^1.18.3",
     "bull": "^3.4.2",
-    "bull-arena": "^2.6.2",
+    "bull-arena": "^2.6.3",
     "esm": "^3.0.67",
     "express": "^4.16.3",
     "ioredis": "^3.2.2",
