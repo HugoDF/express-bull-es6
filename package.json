@@ -13,7 +13,7 @@
   "author": "Hugo Di Francesco",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.18.3",
     "bull": "^3.4.2",
     "bull-arena": "^2.6.2",
