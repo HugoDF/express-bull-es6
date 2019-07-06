@@ -1,6 +1,5 @@
 import url from 'url';
 import express from 'express';
-import bodyParser from 'body-parser';
 import Arena from 'bull-arena';
 
 import { db } from './db';
@@ -8,7 +7,7 @@ import { queues, NOTIFY_URL } from './queues';
 
 const app = express();
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.post('/webhooks', async (req, res, next) => {
   const { payload, urls } = req.body;
