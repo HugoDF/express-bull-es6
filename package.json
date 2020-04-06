@@ -1,14 +1,14 @@
 {
   "name": "express-bull-es6",
+  "private": true,
   "version": "1.0.0",
-  "description": "An Express setup with Redis, bull and ES6",
+  "description": "An Express setup with Redis, Bull Queue and ES6",
   "main": "server.js",
   "scripts": {
     "start": "node -r esm server.js",
     "dev": "nodemon -r esm server.js",
     "worker": "node -r esm worker.js",
-    "worker:dev": "nodemon -r esm worker.js",
-    "test": "echo \"No test specified\" && exit 0"
+    "worker:dev": "nodemon -r esm worker.js"
   },
   "author": "Hugo Di Francesco",
   "license": "MIT",
