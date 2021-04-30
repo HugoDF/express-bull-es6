@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/."
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+  assignees:
+  - HugoDF
+  ignore:
+  - dependency-name: bull
+    versions:
+    - 3.22.1
+  - dependency-name: bull-arena
+    versions:
+    - 3.17.0
