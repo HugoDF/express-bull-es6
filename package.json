@@ -15,7 +15,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "body-parser": "^1.19.2",
-    "bull": "^4.5.1",
+    "bull": "^4.8.5",
     "bull-arena": "^3.29.3",
     "esm": "^3.2.25",
     "express": "^4.18.0",
